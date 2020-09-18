@@ -2,7 +2,7 @@
 Demo project to find a possible CDI issue
 
 
-NB! This project uses WebSphere Liberty, as the final application target is WAS 8.5.5
+NB! This project uses WebSphere Liberty (not OpenLiberty), as the final application target is WAS 8.5.5 so I need to use cdi-1.1 and jaxrs-1.1
 
 You might need to point to IBM repository i the pom.xml
 
