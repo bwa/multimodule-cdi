@@ -10,32 +10,31 @@
  *     IBM Corporation - initial API and implementation
  *******************************************************************************/
  // end::comment[]
-package io.openliberty.guides.rest;
+package no.bwa;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
-import no.klp.SmokeTestable;
 
-@Path("properties/war")
-public class PropertiesWarResource {
+@Path("properties/jar")
+public class PropertiesJarResource {
 
 	@Inject 
 	SmokeTestable smoketest; 
 
 	@GET
-	
-	// invoke this with : http://localhost:9080/war-module/System/properties/war
+    
+	// invoke this with : http://localhost:9080/war-module/System/properties/jar
 	
     public String getProperties() {
     	
 		String s = "";
 		
     	if(smoketest!=null) {
-    		s = "PropertiesWarResource: smoketest="+smoketest.smokeTest();
+    		s = "PropertiesJarResource: smoketest="+smoketest.smokeTest();
     	} else {
-        	s = "PropertiesWarResource: smoketest not here ...";
+        	s = "PropertiesJarResource: smoketest not here ...";
     	}
     	System.out.println(s);
     	

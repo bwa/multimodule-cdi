@@ -3,13 +3,13 @@
 
 <!-- 
 	<alternatives>
-		<class>io.openliberty.guides.rest.InjectFromWAR</class>
+		<class>no.bwa.InjectFromWAR</class>
 	</alternatives>
  -->
  
 <!--
  	<alternatives>
-		<class>no.klp.InjectFromJAR</class>
+		<class>no.bwa.InjectFromJAR</class>
 	</alternatives>
  -->
  

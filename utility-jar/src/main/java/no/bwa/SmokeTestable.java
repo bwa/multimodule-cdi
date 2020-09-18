@@ -1,6 +1,4 @@
-package no.klp;
-
-import javax.enterprise.context.ApplicationScoped;
+package no.bwa;
 
 //@ApplicationScoped
 public interface SmokeTestable {

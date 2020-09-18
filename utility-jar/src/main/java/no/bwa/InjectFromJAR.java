@@ -1,8 +1,6 @@
-package no.klp;
+package no.bwa;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Alternative;
-import javax.enterprise.inject.Default;
 
 //@Default
 @ApplicationScoped

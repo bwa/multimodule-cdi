@@ -1,7 +1,4 @@
-package io.openliberty.guides.rest;
-
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Alternative;
+package no.bwa.cdi;
 
 import no.klp.SmokeTestable;
 
